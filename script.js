@@ -1,12 +1,9 @@
-let p = document.getElementById('rgb-color');
-
-
+//Gera cores aleatórias
 function cores (){
-    let r = Math.floor(Math.random() * 256)
-    let g = Math.floor(Math.random() * 256)
-    let b = Math.floor(Math.random() * 256)
-
-    let corRgb = 'rgb(' + r + ',' + g + ',' + b + ')'
+    const r = Math.floor(Math.random() * 256)
+    const g = Math.floor(Math.random() * 256)
+    const b = Math.floor(Math.random() * 256)
+    const corRgb = 'rgb(' + r + ',' + g + ',' + b + ')'
 
     return corRgb;
 }
@@ -18,37 +15,15 @@ for(let i = 0; i < ball.length; i+=1){
     console.log(ball[i].style.backgroundColor)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+//-------------------------
 
 /*
-window.onload = function coresAleatorias(){
-    let ball = document.getElementsByClassName('ball');
-    let hexadecimais = '0123456789ABCDEF';
-    let cor = '#';
+let p = document.getElementById('rgb-color');
+p.innerText = 'rgb(' + r + ',' + g + ',' + b + ')' 
+*/
 
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[0].style.backgroundColor=cor;
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[1].style.backgroundColor=cor;
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[2].style.backgroundColor=cor;
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[3].style.backgroundColor=cor;
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[4].style.backgroundColor=cor;
-        cor += hexadecimais[Math.floor(Math.random() * 16)];
-        ball[5].style.backgroundColor=cor;
+//Texto dinamico
+pMensagem = document.getElementById('answer');
+pMensagem.innerText = "Escolha uma cor"
 
 
-}*/

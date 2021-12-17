@@ -12,6 +12,8 @@
 
 #rgb-color{
     margin: 30px auto 25px;
+    color: red;
+    font-size: 28px;
 }
 
 .ball{
@@ -21,5 +23,10 @@
     border: 1px solid black;
     border-radius: 40px;
     display: inline-block;
+    cursor: pointer;
 }
 
+#answer{
+    margin: 40px 0;
+    font-size: 35px;
+}
