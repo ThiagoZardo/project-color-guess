@@ -41,3 +41,8 @@
     cursor: pointer;
 }
 
+#score{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: 'Press Start 2P';
+}
