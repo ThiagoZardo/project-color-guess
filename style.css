@@ -30,3 +30,14 @@
     margin: 40px 0;
     font-size: 35px;
 }
+
+#reset-game{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+

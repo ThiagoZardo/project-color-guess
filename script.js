@@ -43,3 +43,13 @@ function verificaResposta(event){
     }
 
 }
+
+
+//Botão Reset
+botaoReset = document.getElementById('reset-game');
+botaoReset.addEventListener('click', reset);
+
+function reset(){
+    console.log('botão reset')
+    document.location.reload(true);
+}
